@@ -5652,7 +5652,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &297407797
 Transform:
   m_ObjectHideFlags: 0
@@ -21451,8 +21451,10 @@ MonoBehaviour:
   autoManageVRSettings: 1
   autoLoadSetup: 1
   setups:
-  - {fileID: 484143927}
   - {fileID: 932633939}
+  - {fileID: 895352877}
+  - {fileID: 1919637298}
+  - {fileID: 484143927}
   - {fileID: 699346361}
   excludeTargetGroups: 1a0000001b000000
   persistOnLoad: 0
@@ -22374,6 +22376,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Student1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 47010b8f0c2d960488f6913d9c699b6e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 47010b8f0c2d960488f6913d9c699b6e,
         type: 3}
       propertyPath: m_Controller
@@ -22403,6 +22410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1450671978}
   - component: {fileID: 1450671979}
+  - component: {fileID: 1450671980}
   m_Layer: 0
   m_Name: '[VRSimulator_CameraRig]'
   m_TagString: Untagged
@@ -22477,6 +22485,18 @@ MonoBehaviour:
   startMenuAlias: 102
   touchModifier: 116
   hairTouchModifier: 104
+--- !u!114 &1450671980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450671977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e6a572c72e6f4647bbc341b132f9c72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1452754335
 GameObject:
   m_ObjectHideFlags: 0
