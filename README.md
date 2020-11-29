@@ -40,6 +40,7 @@ The following are the key-binds for using the VRTK Simulator -
 5. ```Shift``` for sprinting
 6. Press ```Alt``` to use the controller. You can then move the controller in the X-Z axis using the mouse and press ```Ctrl``` for moving the controller in the X-Y axis.
 7. Press ```Tab``` to switch the controller hand.
+8. Press ```E``` for Button One on the controller.
 
 ### Features
 
@@ -48,7 +49,7 @@ The following are the key-binds for using the VRTK Simulator -
 3. __Large objects__ - There are around 9 large objects scattered across the scene. Since the goal was to reimagine a virtual classroom, I chose objects based on what I thought would be cool to have in order to get students engaged and interested in the class. Some of these objects include a vending machine, a board game for entertainment, a rotating model of the earth to teach geoography, etc. 
 4. __Interactable large objects__ - There is a red vending machine in the corner which has a large button in it's mid-section. When the user "clicks" the button, the vending machine dispenses a soda can that can be grabbed, moved around, and dropped. There is also a rotating model of the earth in the first bench. When the user touches the model, the model stops rotating so that the user can inspect a particular part of the earth.
 5. __New lighting scheme__ - Adding to the 2 sets of switches and 4 white lights provided in the starter scene, there are an additional set of 2 switches located in the rear wall. These turn on 4 new lights that are red in colour and give the effect of an __Evacuate__ warning. 
-6. __Scaling down__ - Button 2 on the controller is bound to the ```E``` key, which can be pressed on the keyboard to scale down the user. This makes the user around 6 inches tall and slows down the speed of movement, making the environment appear gigantic. You can go back to normal scale by pressing ```E``` again.  
+6. __Scaling down__ - Button One on the controller is bound to the ```E``` key, which can be pressed on the keyboard to scale down the user. This makes the user around 6 inches tall and slows down the speed of movement, making the environment appear gigantic. You can go back to normal scale by pressing ```E``` or the Button One on the controller again.  
 
 ### Asset and sound credits 
 
